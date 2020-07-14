@@ -1,0 +1,25 @@
+.socset{
+	&__link{
+		display: inline-block;
+		width: 44px;
+		height: 44px;
+		margin: 0 5px;
+		border-radius: 50%;
+		background-color: rgba(#fff,.15);
+		text-align: center;
+		background-position: center;
+		background-repeat: no-repeat;
+		&--vk{
+			background-image: url("../img/vk.svg");
+			background-size: 26px 15px;
+		}
+		&--fb{
+			background-image: url("../img/fb.svg");
+			background-size: 10px 21px;
+		}
+		&--insta{
+			background-image: url("../img/insta.svg");
+			background-size: 24px 24px;
+		}
+	}
+}

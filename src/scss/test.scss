@@ -1,0 +1,37 @@
+@import 'partials/normalize';
+@import 'fonts';
+@import 'mixin';
+@import 'partials/slick';
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: $Montserrat;
+	&.lock{
+		overflow: hidden;
+	}
+}
+.wrp{
+	padding-bottom: 70px;
+}
+h2{
+
+}
+
+.container{
+	max-width: 1160px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@import "componets/upline";
+@import "componets/header";
+@import "componets/slider";
+@import "componets/about";
+@import "componets/card";
+@import "componets/partners";
+@import "componets/footer";
+@import "componets/socset";

@@ -1,0 +1,49 @@
+.card{
+	margin: 37px 0 78px;
+	&__body{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+	}
+	&__item{
+		background-color: #FFF5E9;
+		padding: 20px;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			border: 16px solid transparent;
+			border-top: 16px solid #fff;
+			border-right: 16px solid #fff;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
+			width: 20px;
+			height: 20px;
+			border-right: 3px solid #AB103A;
+			border-bottom: 3px solid #AB103A;
+		}
+	}
+	&__num{
+		font-size: 43px;
+		color: #AB103A;
+		font-weight: 600;
+	}
+	&__txt{
+		font-size: 16px;
+	}
+	@include r(767){
+		&__body{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+	}
+}
