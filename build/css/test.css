@@ -1050,6 +1050,7 @@ body.lock {
 
 .about p {
   line-height: 21px;
+  font-weight: normal;
 }
 
 .card {
@@ -1300,6 +1301,7 @@ body.lock {
 .footer__copy p {
   color: #ffffff;
   font-size: 14px;
+  font-weight: normal;
   margin: 0 0 6px;
 }
 
