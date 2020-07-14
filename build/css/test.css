@@ -1048,6 +1048,10 @@ body.lock {
   margin: 35px 0;
 }
 
+.about p {
+  line-height: 21px;
+}
+
 .card {
   margin: 37px 0 78px;
 }
@@ -1094,6 +1098,7 @@ body.lock {
 
 .card__txt {
   font-size: 16px;
+  line-height: 21px;
 }
 
 .partners {
@@ -1295,7 +1300,7 @@ body.lock {
 .footer__copy p {
   color: #ffffff;
   font-size: 14px;
-  margin: 0 0 15px;
+  margin: 0 0 6px;
 }
 
 .footer__copy a {
